@@ -201,7 +201,7 @@ export const menu_list = [
   },
 ];
 
-export const food_list = [
+export const item_list = [
   {
     _id: "1",
     name: "Potato",
