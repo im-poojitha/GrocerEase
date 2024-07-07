@@ -63,7 +63,7 @@
 
 .navbar .active {
   padding-bottom: 2px;
-  border-bottom: 3px solid #4E6C50;
+  border-bottom: 3px solid #4e6c50;
 }
 
 .navbar li {
@@ -82,6 +82,44 @@
   border-radius: 5px;
   top: -8px;
   right: -8px;
+}
+
+.navbar-profile {
+  position: relative;
+}
+
+.nav-profile-dropdown {
+  position: absolute;
+  display: none;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-profile:hover .nav-profile-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff2eb;
+  padding: 12px 25px;
+  border-radius: 4px;
+  border: 1px solid #567c04;
+  outline: 2px solid white;
+  list-style: none;
+}
+
+.nav-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.nav-profile-dropdown img {
+  width: 20px;
+}
+
+.nav-profile-dropdown li:hover {
+  color: #4e6c50;
 }
 
 @media (max-width: 1050px) {

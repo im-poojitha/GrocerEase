@@ -24,6 +24,11 @@
   padding: 10px;
 }
 
+.add-category select {
+  width: max(40%, 280px);
+  padding: 10px;
+}
+
 .add-category-price {
   display: flex;
   gap: 30px;
